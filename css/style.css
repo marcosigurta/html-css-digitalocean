@@ -1,14 +1,23 @@
 /* General Rules */
 
 * {
+  font-family: 'PT Sans', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 50px;
+}
+
+/* Positioning */
+
 .relative {
   position: relative;
 }
+
+/* Background & text color */
 
 .grey-bg {
   background-color: #f3f5f9;
@@ -25,6 +34,69 @@
 .blue-text {
   color: #006aff;
 }
+
+.grey-text {
+  color:#808693
+}
+
+.heavyblue-text {
+ color: #031c4e;
+}
+
+/* Text size */
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Color heading title by Section */
+
+p {
+  color:#808693
+}
+
+#section-main-2 h2, h4  {
+  color: #031c4e;
+}
+
+#section-main-3 h2, h4  {
+  color: #031c4e;
+}
+
+#section-main-4 h2, h4  {
+  color: #031c4e;
+}
+
+#section-main-6 h2, h4  {
+  color: #031c4e;
+}
+
+
+
+
+
+
+
+
+/* List item & Anchor Tag style */
+
+#section-main-2 #col-link-section-2 li,
+#footer li {
+  list-style:  none;
+  padding: 3% 0;
+}
+
+#section-main-2 #col-link-section-2 li a,
+#footer li a{
+  color:#808693
+}
 /* Header */
 #header {
   background: url(../img/jumbo.svg) no-repeat center center/cover;
@@ -37,13 +109,12 @@
 }
 
 #header .navbar .navbar-brand {
-  background: url(../img/logo.png) center / contain no-repeat;
-  width: 120px;
+  /* background: url(../img/logo.png) center / contain no-repeat; */
 }
 
-#header .navbar .navbar-left {
+/* #header .navbar .navbar-left {
   padding-left: 10%;
-}
+} */
 
 #header .navbar .navbar-right .btn {
   border-color: #006aff;
@@ -88,10 +159,7 @@
   border-left: 1px solid #999999;
 }
 
-#section-main-2 #col-link-section-2 ul li {
-  list-style: none;
-  padding: 5% 0;
-}
+
 
 /* Section-main-3 */
 
@@ -102,7 +170,29 @@
 } */
 
 /* Section-main-5 */
+#section-main-5 table tr td {
+  color: #95aadd;
+}
+#section-main-5 .table tr td:first-of-type {
+  font-weight: bold;
+  color: #fff;
+}
+
 #section-main-5 .table tr:first-of-type td {
   border-top: none !important;
   border-left: none !important;
 }
+
+/* Section-main-6 */
+
+
+/* Section-main-7 */
+
+
+
+/* Footer */
+
+#footer {
+  background-color: #031c4e;
+}
+
