@@ -1,76 +1,80 @@
 /* General Rules */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 .white-text {
-    color: #fff;
+  color: #fff;
 }
 
 .blue-text {
-    color: #006AFF;
+  color: #006aff;
 }
 /* Header */
 #header {
-    background: url(../img/jumbo.svg)no-repeat center center/cover;
+  background: url(../img/jumbo.svg) no-repeat center center/cover;
 }
 
 #header .navbar {
-    background-color: #fff;
-    border-bottom: none;
-    border-radius: 0;
+  background-color: #fff;
+  border-bottom: none;
+  border-radius: 0;
 }
 
 #header .navbar .navbar-brand {
-    background: url(../img/logo.png) center / contain no-repeat;
-    width: 120px;
+  background: url(../img/logo.png) center / contain no-repeat;
+  width: 120px;
 }
 
 #header .navbar .navbar-left {
-    padding-left: 10% ;
+  padding-left: 10%;
 }
 
 #header .navbar .navbar-right .btn {
-    border-color: #006AFF;
-    color: #006AFF;
-    font-weight: bold;
+  border-color: #006aff;
+  color: #006aff;
+  font-weight: bold;
 }
 
 #header .navbar .navbar-right .btn:hover {
-    background-color:  #006AFF;
-    color: #000;
-    transition: 0.3s ease-in-out;
+  background-color: #006aff;
+  color: #000;
+  transition: 0.3s ease-in-out;
 }
 
 /* Jumbo Header */
 
 #header #header-jumbo #jumbo-form {
-    background-color: #fff;
-    border-radius: 5px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
-#blue-btn a{
-    background-color: #006AFF;
+#blue-btn a {
+  background-color: #006aff;
 }
 
 #google-btn a {
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  border: 1px solid #ccc;
 }
-#google-btn img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 1%;
+#google-btn img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1%;
 }
 
-.relative {
-    position: relative;
+/* Main */
+
+/* Section-main-1 */
+
+#main #section-main-1 {
+  background-color: #f3f5f9;
 }
