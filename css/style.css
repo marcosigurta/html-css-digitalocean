@@ -10,6 +10,14 @@
   position: relative;
 }
 
+.grey-bg {
+  background-color: #f3f5f9
+}
+
+.blue-bg {
+  background-image: linear-gradient(#0046c4, #00219d);
+}
+
 .white-text {
   color: #fff;
 }
@@ -75,9 +83,6 @@
 
 /* Section-main-1 */
 
-#main #section-main-1 {
-  background-color: #f3f5f9;
-}
 
 
 /* Section-main-2 */
@@ -89,3 +94,15 @@
   list-style: none;
   padding: 5% 0;
 }
+
+/* Section-main-3 */
+
+
+/* Section-main-4 */
+#section-main-4 .table tr:first-of-type td{
+  border-top: none !important;
+  border-left: none !important;
+}
+
+
+
