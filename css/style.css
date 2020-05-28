@@ -78,3 +78,14 @@
 #main #section-main-1 {
   background-color: #f3f5f9;
 }
+
+
+/* Section-main-2 */
+#section-main-2 #col-link-section-2 {
+  border-left: 1px solid #999999;
+}
+
+#section-main-2 #col-link-section-2 ul li {
+  list-style: none;
+  padding: 5% 0;
+}
