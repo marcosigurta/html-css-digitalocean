@@ -11,7 +11,7 @@
 }
 
 .grey-bg {
-  background-color: #f3f5f9
+  background-color: #f3f5f9;
 }
 
 .blue-bg {
@@ -83,8 +83,6 @@
 
 /* Section-main-1 */
 
-
-
 /* Section-main-2 */
 #section-main-2 #col-link-section-2 {
   border-left: 1px solid #999999;
@@ -97,12 +95,14 @@
 
 /* Section-main-3 */
 
+/* Main-Section-4 */
 
-/* Section-main-4 */
-#section-main-4 .table tr:first-of-type td{
+/* #section-main-4 .container .text-left {
+  padding: ;
+} */
+
+/* Section-main-5 */
+#section-main-5 .table tr:first-of-type td {
   border-top: none !important;
   border-left: none !important;
 }
-
-
-
