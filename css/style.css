@@ -1,7 +1,7 @@
 /* General Rules */
 
 * {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,6 +15,9 @@ body {
 
 .relative {
   position: relative;
+}
+#header img {
+  width: 100px;
 }
 
 /* Background & text color */
@@ -36,15 +39,19 @@ body {
 }
 
 .grey-text {
-  color:#808693
+  color: #808693;
 }
 
 .heavyblue-text {
- color: #031c4e;
+  color: #031c4e;
 }
 
 /* Text size */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
 }
 
@@ -59,43 +66,40 @@ h1 {
 /* Color heading title by Section */
 
 p {
-  color:#808693
+  color: #808693;
 }
 
-#section-main-2 h2, h4  {
+#section-main-2 h2,
+h4 {
   color: #031c4e;
 }
 
-#section-main-3 h2, h4  {
+#section-main-3 h2,
+h4 {
   color: #031c4e;
 }
 
-#section-main-4 h2, h4  {
+#section-main-4 h2,
+h4 {
   color: #031c4e;
 }
 
-#section-main-6 h2, h4  {
+#section-main-6 h2,
+h4 {
   color: #031c4e;
 }
-
-
-
-
-
-
-
 
 /* List item & Anchor Tag style */
 
 #section-main-2 #col-link-section-2 li,
 #footer li {
-  list-style:  none;
+  list-style: none;
   padding: 3% 0;
 }
 
 #section-main-2 #col-link-section-2 li a,
-#footer li a{
-  color:#808693
+#footer li a {
+  color: #808693;
 }
 /* Header */
 #header {
@@ -129,6 +133,16 @@ p {
 }
 
 /* Jumbo Header */
+#header-jumbo,
+#section-main-1,
+#section-main-2,
+#section-main-3,
+#section-main-4,
+#section-main-5,
+#section-main-6,
+#section-main-7 {
+  padding: 5% 0%;
+}
 
 #header #header-jumbo #jumbo-form {
   background-color: #fff;
@@ -159,15 +173,33 @@ p {
   border-left: 1px solid #999999;
 }
 
+/* Section-main-3 Section-main-6 CAROUSEL   */
 
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 3%;
+}
 
-/* Section-main-3 */
+.carousel .carousel-control.left,
+.carousel .carousel-control.right {
+  background-image: none !important;
+  color: #031c4e;
+  text-shadow: none;
+}
+
+.carousel img {
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel .carousel-indicators li {
+  border-color: #006aff;
+}
+.carousel .carousel-indicators li.active {
+  background-color: #006aff !important;
+}
 
 /* Main-Section-4 */
-
-/* #section-main-4 .container .text-left {
-  padding: ;
-} */
 
 /* Section-main-5 */
 #section-main-5 table tr td {
@@ -183,16 +215,10 @@ p {
   border-left: none !important;
 }
 
-/* Section-main-6 */
-
-
 /* Section-main-7 */
-
-
 
 /* Footer */
 
 #footer {
   background-color: #031c4e;
 }
-
