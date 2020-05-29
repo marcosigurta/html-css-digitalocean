@@ -31,60 +31,68 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="" href="#">
-                        <img src="img/logo.png" alt="">
-                    </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse visible-md-block" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav hidden-sm hidden-md">
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <a class="navbar-brand" href=""></a>
+                        </div>
+                        <div class="col-xs-4 col-xs-offset-1">
+                            <ul class="nav navbar-nav hidden-sm hidden-md">
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Link</a></li>
                             </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                        </div>
+                        <div class="col-xs-4 col-xs-offset-1">
+                            <ul class="nav navbar-nav navbar-right hidden-sm hidden-md">
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Link</a></li>
+                                <li>
+                                    <form action="#">
+                                        <button class="btn btn-default navbar-btn">Sign Up</button>
+                                    </form>
+                                </li>
                             </ul>
-                        </li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
+                        </div>
+                    </div>
+                   
 
-                    <ul class="nav navbar-nav navbar-right hidden-sm hidden-md">
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Link</a></li>
-                        <li>
-                            <form action="#">
-                                <button class="btn btn-default navbar-btn">Sign Up</button>
-                            </form>
-                        </li>
-                    </ul>
+                   
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
@@ -98,7 +106,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-7 white-text">
                         <h1>The simplest cloud platform for developers & teams</h1>
-                        <p class="white-text">
+                        <p>
                             We make it simple to launch in the cloud and scale up as you
                             grow – with an intuitive control panel, predictable pricing,
                             team accounts, and more. Deploy in seconds
@@ -112,20 +120,22 @@
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password" />
+                                <input type="password" class="form-control" id="exampleInputPassword1"placeholder="Password" />
                             </div>
-
                             <div class="form-group" id="blue-btn">
-                                <a href="#" class="btn form-control white-text">Create your account</a>
+                                <a href="#" class="btn form-control white-text">
+                                    Create your account
+                                </a>
                             </div>
                             <div class="form-group" id="google-btn">
-                                <a href="#" class="btn form-control relative"><img class=""
-                                        src="img/1200px-Google__G__Logo.svg.png" alt=""> Sign up with Google</a>
+                                <a href="#" class="btn form-control relative">
+                                    <img class=""src="img/1200px-Google__G__Logo.svg.png" alt="">
+                                  <p>Sign up With Google</p>
+                                </a>
                             </div>
                         </form>
                         <p>By signign up you agree to
-                            <a class="blue-text" href="#">Terms of Service</a>
+                            <a style="text-decoration: underline;" class="blue-text" href="#">Terms of Service</a>
                         </p>
                     </div>
                 </div>
@@ -187,11 +197,11 @@
                 <div class="row">
                     <div id="col-link-section-2" class="col-xs-3 col-md-3 col-md-offset-2">
                         <ul>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
+                            <li><a href="">Deploy</a></li>
+                            <li><a href="">Menage</a></li>
+                            <li><a href="">Secure</a></li>
+                            <li><a href="">Scale</a></li>
+                            <li><a href="">Monitor</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-md-5">
@@ -208,6 +218,8 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque in atque nulla veniam
                                     suscipit! Aliquam.</p>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-xs-12 col-md-6 text-left">
                                 <img src="img/click-section-2.svg" alt="">
                                 <h4>Titolo</h4>
@@ -329,74 +341,74 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-5 col-md-offset-1">
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <td>John</td>
-                                    <td>Doe</td>
-                                    <td>john@example.com</td>
+                                    <td>AMS2</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>Mary</td>
-                                    <td>Moe</td>
-                                    <td>mary@example.com</td>
+                                    <td>AMS3</td>
+                                    <td>Amsterdam, Netherland</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>July</td>
-                                    <td>Dooley</td>
-                                    <td>july@example.com</td>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>John</td>
-                                    <td>Doe</td>
-                                    <td>john@example.com</td>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>Mary</td>
-                                    <td>Moe</td>
-                                    <td>mary@example.com</td>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>July</td>
-                                    <td>Dooley</td>
-                                    <td>july@example.com</td>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-5">
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <td>John</td>
-                                    <td>Doe</td>
-                                    <td>john@example.com</td>
+                                    <td>AMS2</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>Mary</td>
-                                    <td>Moe</td>
-                                    <td>mary@example.com</td>
+                                    <td>AMS3</td>
+                                    <td>Amsterdam, Netherland</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>July</td>
-                                    <td>Dooley</td>
-                                    <td>july@example.com</td>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>John</td>
-                                    <td>Doe</td>
-                                    <td>john@example.com</td>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>Mary</td>
-                                    <td>Moe</td>
-                                    <td>mary@example.com</td>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
+                                    <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                                 <tr>
-                                    <td>July</td>
-                                    <td>Dooley</td>
-                                    <td>july@example.com</td>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
+                                     <td class="table-arrow text-right azure-text">Test speed</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -465,7 +477,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Get Started Now</h2>
+                        <h2>Get Started Now.</h2>
                         <button type="button" class="btn btn-lg blue-text white-bg">
                             Create your account
                         </button>
@@ -482,20 +494,20 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="row">
-                        <div class="col-xs-12 col-lg-4 col-lg-offset-2">
+                        <div class="col-xs-12 col-lg-4">
                             <img src="img/logo-mark.svg" alt="">
                             <p>
                                 <span class="bold-text"> © 2020 DigitalOcean, LLC. All rights reserved.</span>
                                 <br>
                                 Proudly Made in NY</p>
-                            <span class="fab fa-facebook-f"></span>
-                            <span class="fab fa-instagram"></span>
-                            <span class="fab fa-youtube"></span>
-                            <span class="fab fa-twitter"></span>
-                            <span class="fab fa-linkedin-in"></span>
+                            <span class="fab fa-facebook-square fa-lg"></span>
+                            <span class="fab fa-instagram fa-lg"></span>
+                            <span class="fab fa-youtube fa-lg"></span>
+                            <span class="fab fa-twitter fa-lg"></span>
+                            <span class="fab fa-linkedin-in fa-lg"></span>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-1">
-                            <h4 class="white-text">titolo</h4>
+                        <div class="col-xs-12 col-md-6 col-lg-2">
+                            <h4 class="white-text">Company</h4>
                             <ul>
                                 <li><a href="">link</a></li>
                                 <li><a href="">link</a></li>
@@ -509,8 +521,8 @@
                                 <li><a href="">link</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-1">
-                            <h4 class="white-text">titolo</h4>
+                        <div class="col-xs-12 col-md-6 col-lg-2">
+                            <h4 class="white-text">Products</h4>
                             <ul>
                                 <li><a href="">link</a></li>
                                 <li><a href="">link</a></li>
@@ -525,8 +537,8 @@
                                 <li><a href="">link</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-1">
-                            <h4 class="white-text">titolo</h4>
+                        <div class="col-xs-12 col-md-6 col-lg-2">
+                            <h4 class="white-text">Community</h4>
                             <ul>
                                 <li><a href="">link</a></li>
                                 <li><a href="">link</a></li>
@@ -540,8 +552,8 @@
                                 <li><a href="">link</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-1">
-                            <h4 class="white-text">titolo</h4>
+                        <div class="col-xs-12 col-md-6 col-lg-2">
+                            <h4 class="white-text">Support</h4>
                             <ul>
                                 <li><a href="">link</a></li>
                                 <li><a href="">link</a></li>

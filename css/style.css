@@ -16,8 +16,17 @@ body {
 .relative {
   position: relative;
 }
-#header img {
-  width: 100px;
+
+/* Section Padding */
+
+#header-jumbo,
+#section-main-2,
+#section-main-3,
+#section-main-4,
+#section-main-5,
+#section-main-6,
+#section-main-7 {
+  padding: 5% 0%;
 }
 
 /* Background & text color */
@@ -44,6 +53,10 @@ body {
 
 .heavyblue-text {
   color: #031c4e;
+}
+
+.azure-text {
+  color: #00d7d2;
 }
 
 /* Text size */
@@ -101,10 +114,17 @@ h4 {
 #footer li a {
   color: #808693;
 }
+
+
 /* Header */
+
+
 #header {
-  background: url(../img/jumbo.svg) no-repeat center center/cover;
+  background: url(../img/jumbo.svg) no-repeat;
+  background-size: cover;
 }
+
+/* Navbar */
 
 #header .navbar {
   background-color: #fff;
@@ -112,13 +132,25 @@ h4 {
   border-radius: 0;
 }
 
-#header .navbar .navbar-brand {
-  /* background: url(../img/logo.png) center / contain no-repeat; */
+#header .navbar ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
 }
 
-/* #header .navbar .navbar-left {
-  padding-left: 10%;
-} */
+#header .navbar .collapsed {
+  background-color: #006aff;
+  border:#fff;
+}
+
+#header .navbar .collapsed span {
+  background-color: #fff;
+}
+
+#header .navbar .navbar-brand {
+  background: url(../img/logo.png) center / contain no-repeat;
+  width: 100%;
+}
 
 #header .navbar .navbar-right .btn {
   border-color: #006aff;
@@ -132,16 +164,12 @@ h4 {
   transition: 0.3s ease-in-out;
 }
 
-/* Jumbo Header */
-#header-jumbo,
-#section-main-1,
-#section-main-2,
-#section-main-3,
-#section-main-4,
-#section-main-5,
-#section-main-6,
-#section-main-7 {
-  padding: 5% 0%;
+/* Section Jumbo */
+
+#header #header-jumbo .white-text p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #header #header-jumbo #jumbo-form {
@@ -149,15 +177,24 @@ h4 {
   border-radius: 5px;
 }
 
-#blue-btn a {
+#header #header-jumbo #jumbo-form input::placeholder {
+  color: #000;
+}
+
+#header #header-jumbo #jumbo-form #blue-btn a {
   background-color: #006aff;
 }
 
-#google-btn a {
+#header #header-jumbo #jumbo-form #google-btn p{
+  font-weight: bold;
+}
+
+#header #header-jumbo #jumbo-form #google-btn a {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   border: 1px solid #ccc;
 }
-#google-btn img {
+
+#header #header-jumbo #jumbo-form #google-btn img {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -168,9 +205,27 @@ h4 {
 
 /* Section-main-1 */
 
+#main #section-main-1 .row:last-of-type {
+  padding: 2% 0;
+}
+
 /* Section-main-2 */
-#section-main-2 #col-link-section-2 {
+#main #section-main-2 #col-link-section-2 {
   border-left: 1px solid #999999;
+  font-weight: bold;
+}
+
+#main #section-main-2 .row:first-of-type {
+  padding-bottom: 5%;
+}
+
+#main #section-main-2 .row img {
+  width: 30px;
+  height: 30px;
+}
+
+#main #section-main-2 .row h4 {
+  padding: 1% 0;
 }
 
 /* Section-main-3 Section-main-6 CAROUSEL   */
@@ -201,10 +256,14 @@ h4 {
 
 /* Main-Section-4 */
 
-/* Section-main-5 */
-#section-main-5 table tr td {
-  color: #95aadd;
+#section-main-4 h2 {
+  padding-bottom: 3%;
 }
+
+/* Section-main-5 */
+
+
+
 #section-main-5 .table tr td:first-of-type {
   font-weight: bold;
   color: #fff;
@@ -215,10 +274,30 @@ h4 {
   border-left: none !important;
 }
 
-/* Section-main-7 */
+.table-arrow::after {
+  content: '>';
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
 
+/* Section-main-7 */
+#section-main-7 h2 {
+  padding-bottom: 2%;
+}
 /* Footer */
 
 #footer {
   background-color: #031c4e;
+  padding: 2%;
+}
+
+#footer img {
+  width: 40px;
+  height: auto;
+  padding-bottom: 2%;
+}
+
+#footer .fab {
+  width: 25px;
 }
