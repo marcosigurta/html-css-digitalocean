@@ -26,7 +26,7 @@ body {
 #section-main-5,
 #section-main-6,
 #section-main-7 {
-  padding: 5% 0%;
+  padding: 5%;
 }
 
 /* Background & text color */
@@ -115,9 +115,31 @@ h4 {
   color: #808693;
 }
 
+#section-main-1 a,
+#section-main-2 a,
+#section-main-4 a,
+#footer a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#section-main-1 a:hover,
+#section-main-4 a:hover,
+#section-main-5 a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* After Arrows */
+
+.right-text-arrow::after {
+  content: '>';
+  margin-left: 5px;
+  position: relative;
+  top: 1.5px;
+}
 
 /* Header */
-
 
 #header {
   background: url(../img/jumbo.svg) no-repeat;
@@ -209,10 +231,11 @@ h4 {
   padding: 2% 0;
 }
 
+
 /* Section-main-2 */
+
 #main #section-main-2 #col-link-section-2 {
   border-left: 1px solid #999999;
-  font-weight: bold;
 }
 
 #main #section-main-2 .row:first-of-type {
@@ -227,6 +250,7 @@ h4 {
 #main #section-main-2 .row h4 {
   padding: 1% 0;
 }
+
 
 /* Section-main-3 Section-main-6 CAROUSEL   */
 
@@ -262,8 +286,6 @@ h4 {
 
 /* Section-main-5 */
 
-
-
 #section-main-5 .table tr td:first-of-type {
   font-weight: bold;
   color: #fff;
@@ -274,17 +296,14 @@ h4 {
   border-left: none !important;
 }
 
-.table-arrow::after {
-  content: '>';
-  margin-left: 5px;
-  position: relative;
-  top: 1px;
-}
+
 
 /* Section-main-7 */
+
 #section-main-7 h2 {
   padding-bottom: 2%;
 }
+
 /* Footer */
 
 #footer {
