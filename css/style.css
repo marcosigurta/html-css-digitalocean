@@ -2,9 +2,9 @@
 
 * {
   font-family: "PT Sans", sans-serif;
-  /* padding: 0;
+  padding: 0;
   margin: 0;
-  box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -118,8 +118,7 @@ h4 {
 
 #section-main-1 a,
 #section-main-2 a,
-#section-main-4 a,
-#footer a {
+#section-main-4 a {
   font-weight: bold;
   text-decoration: none;
 }
@@ -314,11 +313,25 @@ h4 {
   padding-bottom: 2%;
 }
 
+#section-main-7 .btn:hover {
+  color: white;
+  background-color: #006aff;
+
+  transition: 0.3s ease-in-out;
+}
+
 /* Footer */
 
 #footer {
   background-color: #031c4e;
   padding: 2% 0;
+}
+
+#footer a:hover,
+span:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 
 #footer img {
@@ -370,7 +383,6 @@ h4 {
 
   .navbar-collapse.collapse {
     display: none !important;
-    /* padding: 0% 1%; */
   }
 
   .navbar-header {
