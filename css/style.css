@@ -451,3 +451,78 @@ h4 {
     margin-right: 10px;
   }
 }
+
+#shark-advice {
+  border-radius: 10px;
+  position: fixed;
+  right: 75px;
+  bottom: 100px;
+  background-color: #fff;
+  border: 2px solid #006aff;
+  padding: 1%;
+  line-height: 30px;
+  color: #000;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: cursive;
+  z-index: 15;
+}
+
+#triangolo {
+  position: fixed;
+  bottom: 100px;
+  right: 75px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 100%;
+  border-right: 2px solid #006aff;
+  border-bottom: 2px solid #006aff;
+}
+
+#shark {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  right: 10px;
+  bottom: 40px;
+  border: 2px solid #006aff;
+}
+
+.sharky-input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+input#show:checked ~ .sharky {
+  display: block;
+}
+
+input#hide:checked ~ .sharky {
+  display: none;
+}
+
+#showSharky,
+#hideSharky {
+  position: fixed;
+  background-color: #fff;
+  border: 2px solid #006aff;
+  border-radius: 10px;
+  padding: 0.5%;
+  color: #006aff;
+  font-size: 10px;
+}
+
+#showSharky {
+  bottom: 1px;
+  right: 3px;
+}
+
+#hideSharky {
+  bottom: 1px;
+  right: 85px;
+}
