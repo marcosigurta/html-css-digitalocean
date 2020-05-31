@@ -124,6 +124,7 @@ h4 {
 }
 
 #section-main-1 a:hover,
+#section-main-2 #col-link-section-2 .link-border a:hover,
 #section-main-4 a:hover,
 #section-main-5 a:hover {
   color: blue;
@@ -160,6 +161,12 @@ h4 {
   color: #000;
 }
 
+#header .navbar ul li a:hover {
+  color: #fff;
+  transition: 0.1s ease-in-out;
+  background-color: #006aff;
+}
+
 #header .navbar .collapsed {
   background-color: #006aff;
   border: #fff;
@@ -186,6 +193,31 @@ h4 {
   transition: 0.3s ease-in-out;
 }
 
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 10px;
+}
+.navbar-nav .dropdown-menu .divider {
+  background-color: #006aff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #006aff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #006aff;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #006aff;
+}
+
 /* Section Jumbo */
 
 #header #header-jumbo .white-text p {
@@ -207,8 +239,12 @@ h4 {
   background-color: #006aff;
 }
 
-#header #header-jumbo #jumbo-form #google-btn p {
-  font-weight: bold;
+#header #header-jumbo #jumbo-form #blue-btn a:hover,
+#header #header-jumbo #jumbo-form #google-btn .btn:hover {
+  background-color: #00219d;
+  border-color: #00219d;
+  color: #fff;
+  transition: 0.3s ease-in-out;
 }
 
 #header #header-jumbo #jumbo-form #google-btn a {
@@ -241,14 +277,21 @@ h4 {
   padding-bottom: 5%;
 }
 
-#main #section-main-2 .link-border {
-  border-left: 1px solid black;
-  height: 50px;
+#main #section-main-2 #col-link-section-2 a {
+  width: 0;
+  border-left: 1px solid #808693;
   line-height: 50px;
   padding: 0 2%;
+  display: block;
 }
 
-#main #section-main-2 .link-border:last-of-type {
+#main #section-main-2 #col-link-section-2 a:hover {
+  color: blue;
+  border-left: 3px solid blue;
+  transition: 0.1s ease-in-out;
+}
+
+#main #section-main-2 #col-link-section-2 {
   margin-bottom: 5%;
 }
 
@@ -328,7 +371,7 @@ h4 {
 }
 
 #footer a:hover,
-span:hover {
+.fab:hover {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
@@ -344,6 +387,18 @@ span:hover {
   width: 25px;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: blue;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: blue;
+}
 /*/////////////////////
 //////////////////////
     @MEDIA QUARIES
@@ -378,7 +433,6 @@ span:hover {
 @media (max-width: 1200px) {
   .navbar-toggle {
     display: block;
-    margin-right: 0;
   }
 
   .navbar-collapse.collapse {
