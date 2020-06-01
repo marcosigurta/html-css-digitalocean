@@ -476,11 +476,13 @@ label {
 }
 
 input#show:checked ~ .sharky {
-  display: block;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 input#hide:checked ~ .sharky {
-  display: none;
+ opacity: 0;
+ transition: 0.3s ease-in-out;
 }
 
 #showSharky,
