@@ -307,7 +307,7 @@ h4 {
 /* Section-main-3 Section-main-6 CAROUSEL   */
 
 .carousel {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: 5% 3%;
 }
@@ -348,6 +348,10 @@ h4 {
 #section-main-5 .table tr:first-of-type td {
   border-top: none;
   border-left: none;
+}
+
+#section-main-5 .table tr td:nth-of-type(2) {
+  opacity: 0.7;
 }
 
 /* Section-main-7 */
@@ -393,12 +397,6 @@ h4 {
 /////////////////////
 ////////////////////*/
 
-@media (max-width: 767px) {
-  #header .navbar-btn {
-    margin: 0 0 5px 13px;
-  }
-}
-
 @media (max-width: 576px) {
   #header {
     text-align: center;
@@ -416,9 +414,49 @@ h4 {
     max-width: 100%;
     height: 80px;
   }
+
+  #main #section-main-2 #col-link-section-2 li {
+    float: left;
+    display: block;
+    width: calc(100% / 5);
+    text-align: center;
+  }
+
+  #main #section-main-2 #col-link-section-2 a {
+    border-left: none;
+    border-bottom: 2px solid lightgray;
+    width: auto;
+  }
+
+  #main #section-main-2 #col-link-section-2 a:hover {
+    color: #006aff;
+    border-left: none;
+    border-bottom: 2px solid #006aff;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #header .navbar-right {
+    margin-right: 30px;
+  }
+
+  #header .navbar-collapse {
+    border-top: 1px solid #006aff;
+  }
+}
+
+@media (max-width: 767px) {
+  #header .navbar-btn {
+    margin: 0 0 5px 13px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .navbar .container {
+    width: 100%;
+  }
+
   .navbar-toggle {
     display: block;
   }
@@ -481,8 +519,8 @@ input#show:checked ~ .sharky {
 }
 
 input#hide:checked ~ .sharky {
- opacity: 0;
- transition: 0.3s ease-in-out;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 
 #showSharky,
